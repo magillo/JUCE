@@ -24,6 +24,8 @@
 
 #include "BinaryData.h"
 
+#define JUCER_ENABLE_GPL_MODE 1
+
 #if defined (JUCE_PROJUCER_VERSION) && JUCE_PROJUCER_VERSION < JUCE_VERSION
  /** If you've hit this error then the version of the Projucer that was used to generate this project is
      older than the version of the JUCE modules being included. To fix this error, re-save your project
